@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "prueba-1-client-side-solution",
+    "id": "c24758c2-fdd5-41e7-b82e-3b1145152f17",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.18.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "prueba1 description"
+      },
+      "longDescription": {
+        "default": "prueba1 description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "prueba-1 Feature",
+        "description": "The feature that activates elements of the prueba-1 solution.",
+        "id": "a5b672e4-e458-4281-977b-eeaed126f8c3",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/prueba-1.sppkg"
+  }
+}
